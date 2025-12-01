@@ -1,0 +1,76 @@
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.circles{
+    position: relative;
+    left: 15%;
+    width: 70%;
+    display: flex;
+    
+    justify-content: center;
+    text-align: center;
+    
+}
+.circle{
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+#rock{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.RCXMDKxvr081mbQtomVcbwAAAA?pid=Api&P=0&h=180");
+    background-size: cover;
+}
+#paper{
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.w-JrIDRp4-LRfASzkyvRhAAAAA?pid=Api&P=0&h=180");
+    background-size: cover;
+}
+#scissor{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.MwAuLCBo6SrRnaYKee0PWQAAAA?pid=Api&P=0&h=180");
+    background-size: cover;
+}
+
+.score{
+    width: 20%;
+    display:flex;
+    align-items: center;
+    margin-top:100px;
+    margin-left: 40%;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+.you{
+    text-align: center;
+}
+.comp{
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-size:30px ;
+}
